@@ -14,7 +14,6 @@
 - [FastForward](https://addons.mozilla.org/en-US/firefox/addon/fastforwardteam/) - Bypass "shorteners" URLs
 - [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/) - As its name
 - [Web Archives](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/) - View archived or cached versions of web pages
-- [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 - [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/)
 - [Imagus](https://addons.mozilla.org/en-US/firefox/addon/imagus/) - Preview images/videos
 - [Flagfox](https://addons.mozilla.org/en-US/firefox/addon/flagfox/) - Display the location of the current website's server
