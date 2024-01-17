@@ -2,12 +2,12 @@
 @import "shared/colors.rasi"
 
 window {
-    width: 55%;
-    height: 45%;
+    width: 60%;
+    height: 50%;
     transparency: "real";
     background-color: var(background);
     text-color: var(foreground);
-    padding: 20px 20px 30px 20px;
+    padding: 12px 18px 12px 18px;
 }
 
 inputbar {
@@ -46,7 +46,7 @@ entry {
 
 listview {
     background-color: var(background);
-    padding: 10px;
+    padding: 6px;
     columns: 3;
     spacing: 4px;
     lines: 12;
@@ -86,7 +86,7 @@ element selected.normal {
 
 mode-switcher{
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     1px;
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 notify_cmd(){ 
-    dunstify --replace=11112 --hints=int:value:"$(get_brightness)" "☀️ Brightness: $(get_brightness)%"
+    dunstify --replace=11111 -a 'no' --hints=int:value:"$(get_brightness)" "☀️ Brightness: $(get_brightness)%"
 }
 
 get_brightness(){
@@ -18,10 +18,8 @@ brightness_down(){
 
 if command -v brightnessctl &>/dev/null; then
 	case "$1" in
-		--up) brightness_up
-            notify_cmd ;;
-		--down) brightness_down
-            notify_cmd ;;
+		--up) brightness_up && notify_cmd ;;
+		--down) brightness_down && notify_cmd ;;
 		*) echo "$(get_brightness)%" ;;
 	esac
 fi
