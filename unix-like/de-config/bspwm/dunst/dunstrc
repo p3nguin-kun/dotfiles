@@ -10,7 +10,7 @@
     progress_bar = true
     progress_bar_height = 2
     progress_bar_frame_width = 0
-    progress_bar_min_width = 150
+    progress_bar20in_width = 150
     progress_bar_max_width = 300
     indicate_hidden = yes
     transparency = 0
@@ -26,7 +26,7 @@
     line_height = 0
     markup = full
     format = "<b>%s</b>\n%b"
-    alignment = center
+    alignment = left
     vertical_alignment = center
     show_age_threshold = 60
     ellipsize = middle

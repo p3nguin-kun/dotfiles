@@ -34,6 +34,7 @@ ui_col(){
   # Polybar
   sed -i -e "s/background = .*/background = $bg/g"\
          -e "s/foreground = .*/foreground = $fg/g"\
+         -e "s/accent = .*/accent = $br2/g"\
          -e "s/alert = .*/alert = $r/g" "$HOME"/.config/polybar/colors.ini
   # Rofi
   sed -i -e "s/background: .*/background: $bg;/g"\
