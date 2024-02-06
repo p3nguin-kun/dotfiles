@@ -1,3 +1,0 @@
-yt-dlp --ignore-errors --format bestaudio --extract-audio --audio-format mp3 --audio-quality 160K --output "%(title)s.%(ext)s" --paths ~/Music --yes-playlist 'https://youtube.com/playlist?list=PLAwck3ZmnNt0KubtdLNo_91pgcgyT2A5f&si=SwadE-XzuiVsHNqI'
-
-yt-dlp --ignore-errors --format bestaudio --extract-audio --audio-format mp3 --audio-quality 160K --output "%(title)s.%(ext)s" --paths ~/Music --yes-playlist 'https://youtube.com/playlist?list=PLAwck3ZmnNt0t7Q7NzM2WG4Gf97AI8Y2m&si=RAM9HjX80FNeJEf5'

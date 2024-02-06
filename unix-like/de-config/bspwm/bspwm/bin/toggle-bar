@@ -15,7 +15,7 @@ notify_cmd(){
 
 if [ -f /tmp/polybarhidden ]; then 
   polybar-msg cmd show 
-  bspc config bottom_padding 42
+  bspc config top_padding 38
   rm /tmp/polybarhidden
   notify_cmd
 else 

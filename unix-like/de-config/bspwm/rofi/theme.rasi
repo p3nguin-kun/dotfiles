@@ -1,13 +1,13 @@
-@import "shared/fonts.rasi"
-@import "shared/colors.rasi"
+@import "fonts.rasi"
+@import "colors.rasi"
 
 window {
-    width: 60%;
-    height: 50%;
+    width: 65%;
+    height: 55%;
     transparency: "real";
     background-color: var(background);
     text-color: var(foreground);
-    padding: 12px 18px 12px 18px;
+    padding: 20px 25px 20px 25px;
 }
 
 inputbar {

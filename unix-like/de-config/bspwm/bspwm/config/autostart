@@ -33,7 +33,7 @@ mpd &
 # ibus-daemon -drx &
 
 # Fcitx5
-fcitx5 &
+# fcitx5 &
 
 # Bluetooth
 blueberry-tray &
@@ -42,4 +42,4 @@ blueberry-tray &
 syncthing --no-browser &
 
 # Easy Effects
-easyeffects --gapplication-service &
+# easyeffects --gapplication-service &
