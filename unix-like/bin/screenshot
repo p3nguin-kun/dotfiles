@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-scrot ~/Pictures/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/Pictures/$(date +"%Y-%m-%d-%T")-screenshot.png"

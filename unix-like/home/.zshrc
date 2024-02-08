@@ -9,18 +9,9 @@ setopt auto_list
 setopt hist_find_no_dups
 setopt hist_ignore_dups
 
-# Greeting
-echo "Welcome to $HOST, $USER!"
-
 # Prompt
-emoji=(🥝 🍀 🍘 🍚 🍙 🐸 🌈 🌑 🌕 🌙 🌚 🌝 🍛 🍞 🍟 🍡 🍢 🍣 🍥 💔 💜 🥑 🥦 🥥 🥪 🥒 🥓 🦑 🧀)
-
-choose_emoji() {
-  local random_index=$((RANDOM % ${#emoji[@]}))
-  echo "${emoji[random_index]}"
-}
-
-PROMPT='$(choose_emoji) %~ » '
+#PROMPT='%~ » '
+PROMPT="%F{1}%n%F{reset}@%m%f %~ "
 
 # Auto startx
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
@@ -29,7 +20,7 @@ fi
 
 # Vars
 export TERMINAL="alacritty"
-export BROWSER="firefox"
+export BROWSER="chromium"
 export EDITOR="nvim"
 export VISUAL="${EDITOR}"
 

@@ -1,2 +1,6 @@
+! Appearance
+Xcursor.theme: Bibata
+Xcursor.size: 24
+
 ! DPI
-Xft.dpi: 96
+Xft.dpi: 120
