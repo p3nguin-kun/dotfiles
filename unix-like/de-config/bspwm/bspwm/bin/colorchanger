@@ -39,7 +39,7 @@ ui_col(){
   # Rofi
   sed -i -e "s/background: .*/background: $bg;/g"\
          -e "s/foreground: .*/foreground: $fg;/g" \
-         -e "s/foreground-alt: .*/foreground-alt: $br2;/g" "$HOME"/.config/rofi/shared/colors.rasi
+         -e "s/foreground-alt: .*/foreground-alt: $br2;/g" "$HOME"/.config/rofi/colors.rasi
   # Dunst
   sed -i -e "s/background = .*/background = \"$bg\"/g"\
          -e "s/foreground = .*/foreground = \"$fg\"/g" "$HOME"/.config/dunst/dunstrc

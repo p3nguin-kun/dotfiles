@@ -10,24 +10,24 @@ xrdb merge "$HOME"/.Xresources &
 # Wallpaper
 "$HOME"/.fehbg &
 
-# Compositor
-picom &
-
-# Network Manager Applet
-# nm-applet &
-
-# Polkit
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-
 # Notification
 killall -q dunst
 dunst &
+
+# Compositor
+picom &
 
 # Autolock
 xss-lock -- "$HOME"/.config/bspwm/bin/lockscreen &
 
 # MPD
 mpd &
+
+# Network Manager Applet
+# nm-applet &
+
+# Polkit
+# /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 # Ibus daemon
 # ibus-daemon -drx &
@@ -36,10 +36,4 @@ mpd &
 # fcitx5 &
 
 # Bluetooth
-blueberry-tray &
-
-# Syncthing
-syncthing --no-browser &
-
-# Easy Effects
-# easyeffects --gapplication-service &
+# blueberry-tray &

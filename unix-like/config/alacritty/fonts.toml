@@ -2,7 +2,7 @@
 size = 11
 
 [font.normal]
-family = "SF Mono"
+family = "Cascadia Code"
 style = "Regular"
 
 [font.bold]
