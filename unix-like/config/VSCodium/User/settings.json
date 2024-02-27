@@ -1,8 +1,0 @@
-{
-    "workbench.startupEditor": "none",
-    "editor.fontFamily": "'Cascadia Code', 'monospace', monospace",
-    "workbench.iconTheme": "catppuccin-mocha",
-    "files.autoSave": "afterDelay",
-    "editor.wordWrap": "on",
-    "workbench.colorTheme": "One Dark Pro"
-}

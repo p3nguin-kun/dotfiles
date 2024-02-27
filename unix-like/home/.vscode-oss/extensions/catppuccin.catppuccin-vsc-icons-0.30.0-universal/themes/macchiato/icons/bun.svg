@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100" height="100" viewBox="-5 -5 110 110">
-    <path fill="none" stroke="#f4dbd6" stroke-linecap="square" stroke-width="0.785558" d="M.5 8.5c0 5.25 5.5 6 7.5 6s7.5-.75 7.5-6c0-4-4.5-6-7.5-7-3 1-7.5 3-7.5 7z" transform="matrix(6.3351 0 0 6.39486 -.68 -1.09)"/>
-    <path fill="none" stroke="#ed8796" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M42.278 66.055h15.444C56.006 69.352 53.432 71 50 71c-3.432 0-6.006-1.648-7.722-4.945Z"/>
-    <circle cx="31.012" cy="50" r="5" fill="#8087a2" paint-order="fill markers stroke"/>
-    <circle cx="69" cy="50" r="5" fill="#8087a2" paint-order="fill markers stroke"/>
-</svg>
