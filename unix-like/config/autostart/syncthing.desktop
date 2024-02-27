@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Syncthing
-Comment=launch syncthing with system
-Exec=/usr/bin/syncthing --no-browser
-Terminal=false
-Type=Application
-X-GNOME-Autostart-enabled=true
