@@ -11,7 +11,6 @@
 - [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) - Multi Account
 - [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/) - As its name
 - [Cookie Quick Manager](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/) - Manage cookies
-- [FastForward](https://addons.mozilla.org/en-US/firefox/addon/fastforwardteam/) - Bypass "shorteners" URLs
 - [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/) - As its name
 - [Web Archives](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/) - View archived or cached versions of web pages
 - [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/)
