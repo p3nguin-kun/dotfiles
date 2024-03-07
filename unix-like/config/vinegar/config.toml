@@ -1,6 +1,0 @@
-# See how to configure Vinegar on the documentation website:
-# https://vinegarhq.org/Configuration
-
-[player]
-dxvk = false
-renderer = "Vulkan"

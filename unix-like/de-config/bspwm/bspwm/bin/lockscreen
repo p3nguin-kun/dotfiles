@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-source "$HOME"/.config/bspwm/.color
-source "$HOME"/.config/bspwm/color/"$color"/"$color".sh
-
-i3lock -c "$bg" -f

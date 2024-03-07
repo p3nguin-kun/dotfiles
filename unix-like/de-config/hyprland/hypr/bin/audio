@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-audio(){
-  if pgrep -f pipewire; then
-    return
-  else
-    pipewire &
-  fi
-}

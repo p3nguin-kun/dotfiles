@@ -1,2 +1,0 @@
-"use strict";(("undefined"!=typeof self?self:global).webpackChunkopen=("undefined"!=typeof self?self:global).webpackChunkopen||[]).push([[959],{60959:(e,l,t)=>{t.r(l),t.d(l,{AdSubtitle:()=>r,default:()=>s});var i=t(55411),u=t(64893),n=t(71568),b=t(115),d=t(4637);const r=({item:e,onClick:l})=>{const t=(0,i.I0)(),{subtitle:r,url:s,blurbUri:a}=(0,u.QR)(e);return(0,d.jsx)(b._,{item:e,onClick:e=>(l?.(e,s??void 0),t((0,n.nX)("advertiser_subtitle"))),adUrl:s??void 0,adBlurbUri:a,adSubtitle:r})},s=r}}]);
-//# sourceMappingURL=959.js.map

@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-swaylock -i $HOME/.config/hypr/config.d/swaylock/lock.png -F -e

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+bspc rule -a Galculator state=floating

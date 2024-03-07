@@ -1,0 +1,64 @@
+mpd_host = "127.0.0.1"
+mpd_port = 6600
+mpd_connection_timeout = "5"  
+mpd_crossfade_time = "5"
+mpd_music_dir = ~/Music
+lyrics_directory  = ~/.config/ncmpcpp/lyrics
+execute_on_song_change = notify-send -r 277353 "♫ Now Playing" "$(mpc current)"
+
+visualizer_data_source = /tmp/mpd.fifo
+visualizer_output_name = my_fifo
+
+visualizer_in_stereo = "no"
+visualizer_fps = "60"
+visualizer_type = wave
+visualizer_look = "┃┃"
+visualizer_color = blue, green, yellow, magenta, red
+visualizer_spectrum_smooth_look = "no"
+
+# General
+connected_message_on_startup = "yes"
+cyclic_scrolling = "yes"
+mouse_support = "yes"
+mouse_list_scroll_whole_page = "yes"
+lines_scrolled = "1"
+message_delay_time = "1"
+playlist_shorten_total_times = "yes"
+playlist_display_mode = "classic"
+browser_display_mode = "classic"
+search_engine_display_mode = "classic"
+playlist_editor_display_mode = "classic"
+autocenter_mode = "yes"
+centered_cursor = "yes"
+user_interface = "classic"
+follow_now_playing_lyrics = "yes"
+locked_screen_width_part = "50"
+ask_for_locked_screen_width_part = "no"
+display_bitrate = "no"
+external_editor = "nvim"
+main_window_color = "default"
+startup_screen = "playlist"
+
+# Progress bar
+progressbar_look = "━━ "
+progressbar_elapsed_color = "magenta"
+
+# UI Visibility
+header_visibility = "yes"
+statusbar_visibility = "yes"
+titles_visibility = "yes"
+enable_window_title = "no"
+clock_display_seconds = no
+
+# Colors
+color1 = "white"
+color2 = "blue"
+
+# UI Appearance
+now_playing_prefix = "$b$6» "
+now_playing_suffix = "$/b$9"
+current_item_prefix = "$b$3* "
+song_list_format = "{%t}|{%f}$R{%a}  {%l}"
+song_status_format = {%t by %a}|{%f}
+song_library_format = {{%a - %t} (%b)}|{%f}
+
