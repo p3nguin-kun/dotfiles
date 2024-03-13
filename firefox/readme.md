@@ -8,6 +8,7 @@
 # Extensions/Other configs
 - [arkenfox user.js](https://github.com/arkenfox/user.js/) - Harden Firefox
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) - Content blocker
+- [nightTab](https://addons.mozilla.org/en-US/firefox/addon/nighttab/) with my config [here](https://github.com/p3nguin-kun/dotfiles/blob/main/firefox/nightTab.json)
 - [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) - Multi Account
 - [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/) - As its name
 - [Cookie Quick Manager](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/) - Manage cookies
