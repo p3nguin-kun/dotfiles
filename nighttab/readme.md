@@ -7,4 +7,4 @@
 ![night](scrots/night-of-knights.png)
 
 # [Fool Moon Night](fool-moon-night.json)
-![fool-moon-night](scrot/fool-moon-night.png)
+![fool-moon-night](scrots/fool-moon-night.png)
