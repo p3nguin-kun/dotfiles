@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+# ############################# #
+# -=- User specific options -=- #
+# ############################# #
+
+# Current colorscheme
+bsp_color=macaroni
+
+# Gaps (default: 5)
+bsp_gaps=5
+
+# Window border (default: 4)
+bsp_border=4
+
+# Split ratio (default: 0.5)
+bsp_split_ratio=0.5
+
+# Padding (default: 0)
+bsp_top_padding=0
+bsp_bottom_padding=0
+bsp_left_padding=0
+bsp_right_padding=0
+
+# Focus follow pointer (default: true)
+bsp_focus_pointer=true
+
+# Borderless monocle (default: true)
+bsp_borderless_monocle=true
+
+# Gapless monocle (default: false)
+bsp_gapless_monocle=false

@@ -8,7 +8,7 @@ BLUR="5x4"
 sleep 0.1
 $SCREENSHOT
 convert $PICTURE -blur $BLUR \
-    -font Roboto \
+    -font "SF Pro Display" \
     -pointsize 26 -fill white -gravity center \
     -annotate +0+160 "Type Password to Unlock" $PICTURE
 i3lock -f -i $PICTURE

@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# ############ #
+# -=- Misc -=- #
+# ############ #
+
 # Cursor config
 xsetroot -cursor_name left_ptr
 

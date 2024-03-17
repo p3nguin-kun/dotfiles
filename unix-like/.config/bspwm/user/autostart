@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+# ############################### #
+# -=- User specific autostart -=- #
+# ############################### #
+
+# Network Manager Applet
+# nm-applet &
+
+# Polkit
+# /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+# Ibus daemon
+# ibus-daemon -drx &
+
+# Fcitx5
+# fcitx5 &
+
+# Bluetooth
+# blueberry-tray &

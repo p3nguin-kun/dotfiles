@@ -4,8 +4,8 @@
 stats(){
     # Blue light filter
     [ -f /tmp/redshift.lock ] && bluelight_stat='On' || bluelight_stat='Off'
-    # Current colorscheme
-    source "$HOME"/.config/bspwm/.color
+    # Fetch some options
+    source "$HOME"/.config/bspwm/user/options
 }
 
 stats
@@ -18,7 +18,7 @@ apps='Apps'
 power='Power'
 net='Network'
 blue_light="Blue Light Filter: $bluelight_stat"
-colors="Colorschemes: $color"
+colors="Colorschemes: $bsp_color"
 close='Close menu'
 
 run_rofi(){

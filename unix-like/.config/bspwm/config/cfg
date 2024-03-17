@@ -1,17 +1,27 @@
 #!/usr/bin/env bash
 
-# Workspaces
+# #################### #
+# -=- BSPWM Config -=- #
+# #################### #
+
+source "$HOME"/.config/bspwm/user/options
+
+# // Workspaces //
 for monitor in $(xrandr -q | grep -w 'connected' | cut -d' ' -f1); do
 		bspc monitor "$monitor" -d '1' '2' '3' '4' '5' '6' '7'
 done
 
-# Config
+# // Config //
 bspc config remove_unplugged_monitors true
 bspc config remove_disabled_monitors true
-bspc config window_gap 5
-bspc config border_width 4
-bspc config focus_follows_pointer true
-bspc config split_ratio 0.5
+bspc config window_gap $bsp_gaps
+bspc config border_width $bsp_border
+bspc config focus_follows_pointer $bsp_focus_pointer
+bspc config split_ratio $bsp_split_ratio
 bspc config single_monocle true
-bspc config borderless_monocle true
-bspc config gapless_monocle false
+bspc config borderless_monocle $bsp_borderless_monocle
+bspc config gapless_monocle $bsp_gapless_monocle
+bspc config top_padding $bsp_top_padding
+bspc config bottom_padding $bsp_bottom_padding
+bspc config left_padding $bsp_left_padding
+bspc config right_padding $bsp_right_padding

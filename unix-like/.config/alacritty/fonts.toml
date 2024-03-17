@@ -2,7 +2,7 @@
 size = 11
 
 [font.normal]
-family = "Roboto Mono"
+family = "SF Mono"
 style = "Regular"
 
 [font.bold]

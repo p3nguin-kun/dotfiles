@@ -46,7 +46,7 @@ ui_col(){
   # GTK
   sed -i -e "s/gtk-theme-name=.*/gtk-theme-name=$color/" "$HOME"/.config/gtk-3.0/settings.ini
   # sth
-  sed -i -e "s/color=.*/color="$color"/g" "$HOME"/.config/bspwm/.color
+  sed -i -e "s/bsp_color=.*/bsp_color="$color"/g" "$HOME"/.config/bspwm/user/options
 }
 
 restart(){
